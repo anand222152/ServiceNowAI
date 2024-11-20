@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="801bfaacc30212105d1670edd401310e" label="GPT AI" max_length="40" name="u_gpt_ai" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Answer" max_length="8000" name="u_answer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Question" max_length="8000" name="u_question" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
